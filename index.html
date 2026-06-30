@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Array Thinking Web App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Array Thinking Web App</h1>
+
+    <!-- Instructions -->
+    <div class="instructions">
+      <ul>
+        <li>Take a list of numbers from the user (comma-separated, e.g., 5,3,9,-2,0,12)</li>
+        <li>Analyze the array to determine:
+          <ul>
+            <li>Largest number</li>
+            <li>Smallest number</li>
+            <li>Sum of all numbers</li>
+            <li>Average</li>
+          </ul>
+        </li>
+        <li>Handle invalid entries and empty inputs</li>
+        <li>Show all results clearly on the page</li>
+      </ul>
+    </div>
+
+    <!-- Input Section -->
+    <p>Enter multiple numbers separated by comma (,)</p>
+    <div class="input-group">
+      <label for="arr">Enter Numbers:</label>
+      <input id="arr" type="text" placeholder="e.g., 5,3,9,-2,0,12">
+      <button id="sub">Submit</button>
+    </div>
+
+    <!-- Status Message -->
+    <p id="ans"></p>
+
+    <!-- Results Section -->
+    <div class="results">
+      <div class="result-card" id="large">Largest Number is :</div>
+      <div class="result-card" id="Small">Small Number is :</div>
+      <div class="result-card" id="Sum">Sum of all Numbers is :</div>
+      <div class="result-card" id="Avg">Average of all Numbers is :</div>
+      <div class="result-card" id="zero">Number of Zero :</div>
+      <div class="result-card" id="posNum">Number of Positive Numbers :</div>
+      <div class="result-card" id="negNum">Number of Negative Numbers :</div>
+      <div class="result-card" id="even">Number of Even Numbers :</div>
+      <div class="result-card" id="odd">Number of Odd Numbers :</div>
+    </div>
+  </div>
+
+  <script src="first.js"></script>
+</body>
+</html>
